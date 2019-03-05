@@ -1,19 +1,11 @@
 {
-  "name": "responsive-portfolio",
+  "name": "portfolio",
   "version": "1.0.0",
-  "description": "Responsive portfolio - gulp, sass, bootstrap",
+  "description": "Portfolio",
   "main": "src/js/scripts.js",
   "scripts": {
     "watch": "gulp watch"
   },
-  "keywords": [
-    "portfolio",
-    "personal",
-    "website",
-    "tech",
-    "coding",
-    "dev"
-  ],
   "author": "Adam Drag",
   "license": "MIT",
   "devDependencies": {
