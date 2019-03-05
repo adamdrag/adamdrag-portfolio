@@ -1,0 +1,175 @@
+/*
+    -----------------------------
+    -----  Media Queries -----
+    -----------------------------
+*/
+
+// Medium Devices
+@media only screen and (max-width : 992px) {
+
+    #dashboard {
+        height: auto;
+        min-height: auto;
+        max-height: auto;
+        padding: 100px 15px;
+    }
+
+    #dashboard-content {
+        position: relative;
+        transform: none;
+        left: auto;
+        top: auto;
+
+        h1 {
+            font-size: 3em;
+        }
+
+        h2 {
+            font-size: 1.75em;
+        }
+    }
+
+    #animate-subtitle {
+        margin-top: -10px;
+
+        .letter {
+          font-size: 16px;
+        }
+
+        .letter.space {
+          width: 10px;
+        }
+    }
+
+    #about {
+        text-align: center;
+
+        p {
+            text-align: left;
+        }
+    }
+
+}
+
+// Small Devices
+@media only screen and (max-width : 768px) {
+
+    header {
+        position: fixed;
+        display: none;
+        z-index: 999;
+        animation: none;
+        bottom: 0;
+        height: 100%;
+    }
+
+    #mobile-menu-open, #mobile-menu-close {
+        display: block;
+    }
+
+    #menu {
+        overflow-y: auto;
+        box-shadow: none;
+        border-radius: 0;
+        width: 100%;
+
+        li {
+            display: block;
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+    }
+
+    #dashboard-content {
+        h1 {
+            font-size: 2em;
+        }
+
+        h2 {
+            font-size: 1.3em;
+        }
+
+        a {
+            padding: 10px 20px;
+        }
+    }
+
+    #dashboard-down {
+        display: none;
+    }
+
+    #about {
+        padding-top: 40px;
+        height: 100%;
+    }
+
+    #about img {
+        width: 50%;
+    }
+
+    #projects {
+        padding-top: 40px;
+    }
+
+    .project {
+        height: auto;
+    }
+
+    .project-image {
+        display: none;
+    }
+
+    .project-info {
+        position: relative;
+        margin: 0;
+        padding: 30px 15px;
+        top: auto;
+        transform: none;
+    }
+    #skills {
+        padding-top: 40px;
+    }
+
+    #skills ul {
+        margin: 0 20px;
+    }
+    #skills li {
+        font-size: 1em;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    .social {
+        text-align: center;
+    }
+
+}
+
+// Extra Small Devices
+@media only screen and (max-width : 480px) {
+
+    #dashboard-content {
+        h1 {
+            font-size: 1.5em;
+        }
+
+        h2 {
+            font-size: 1em;
+        }
+
+        a {
+            font-size: 0.9em;
+            padding: 5px 10px;
+        }
+    }
+
+    #animate-subtitle {
+        .letter {
+            font-size: 12px;
+        }
+    }
+
+
+}

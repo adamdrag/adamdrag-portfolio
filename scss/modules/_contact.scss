@@ -1,0 +1,21 @@
+/*
+    -------------------------------
+    ----- Contact Styles -----
+    -------------------------------
+*/
+
+#contact {
+    padding: 50px 15px;
+    background: $base-color;
+    text-align: center;
+
+    h2 {
+        margin: 0 0 15px 0;
+        color: #fff;
+        font-weight: 500;
+    }
+
+    .btn-wider {
+        min-width: 350px;
+    }
+}
