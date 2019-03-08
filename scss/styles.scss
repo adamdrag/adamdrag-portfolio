@@ -1,9 +1,11 @@
 @import "variables";
 @import "mixins";
 @import "base";
+@import "modules/navigation";
 @import "modules/dashboard";
 @import "modules/about";
 @import "modules/project";
 @import "modules/skills";
 @import "modules/contact";
+@import "modules/footer";
 @import "mediaQuery";

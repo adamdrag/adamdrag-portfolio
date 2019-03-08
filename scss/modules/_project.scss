@@ -5,71 +5,75 @@
 */
 
 #projects {
+    background: $background-alt;
     padding: 105px 15px 50px;
     border-bottom: 1px solid $border;
     text-align: center;
-}
 
-.project {
-    position: relative;
-    max-width: 900px;
-    margin: 0 auto 30px auto;
-    background: #fff;
-    border-radius: 4px;
-    height: 300px;
-}
-
-.project-image img {
-  border-radius: 4px;
-}
-
-.project-info {
-    margin-left: 300px;
-    margin-top: 40px;
-    padding: 15px;
-
-    h3 {
-        font-size: 1.5em;
-        font-weight: 300;
-        color: $heading;
-        margin: 0 0 15px 0;
-    }
-
-    p {
-        color: $text;
-        margin: 0 0 15px 0;
-        font-size: 0.9em;
-    }
-}
-
-.no-image {
-    .project-info {
+    .project {
         position: relative;
-        margin: 0;
-        padding: 30px 15px;
-        transform: none;
+        max-width: 900px;
+        margin: 0 auto 30px auto;
+        background: #fff;
+        border-radius: 4px;
+        height: 300px;
+
+        .project-image img {
+            border-radius: 4px;
+        }
+  
+        .project-info {
+            margin-left: 300px;
+            margin-top: 40px;
+            padding: 15px;
+        
+            h3 {
+                font-size: 1.5em;
+                font-weight: 300;
+                color: $heading;
+                margin: 0 0 15px 0;
+            }
+        
+            p {
+                color: $text;
+                margin: 0 0 15px 0;
+                font-size: 0.9em;
+            }
+        }
+    }
+
+    // .no-image {
+    //     .project-info {
+    //         position: relative;
+    //         margin: 0;
+    //         padding: 30px 15px;
+    //         transform: none;
+    //     }
+    // }
+
+    #view-more-projects {
+        margin: auto;
+        min-width: 300px;
+        font-size: 18px;
+    }
+
+    .more-projects {
+        display: none;
     }
 }
 
-#view-more-projects {
-  margin: auto;
-  min-width: 300px;
-}
 
-.more-projects {
-    display: none;
-}
 
 .scrollmagic-pin-spacer {
-  position: absolute !important;
-  z-index: 1000;
+    position: absolute !important;
+    z-index: 1000;
 }
 
 .animate {
-  position: absolute;
-  z-index: 1000;
-  left: -70%;
+    position: absolute;
+    z-index: 1000;
+    left: -70%;
 }
 .move {
-  left: 0;
+    left: 0;
 }

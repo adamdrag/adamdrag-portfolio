@@ -7,40 +7,38 @@
 // Medium Devices
 @media only screen and (max-width : 992px) {
 
+    // Dashboard
     #dashboard {
         height: auto;
         min-height: auto;
         max-height: auto;
         padding: 100px 15px;
-    }
 
-    #dashboard-content {
-        position: relative;
-        transform: none;
-        left: auto;
-        top: auto;
-
-        h1 {
-            font-size: 3em;
+        #dashboard-content {
+            position: relative;
+            transform: none;
+            left: auto;
+            top: auto;
+    
+            h1 {
+                font-size: 3em;
+            }
         }
 
-        h2 {
-            font-size: 1.75em;
-        }
-    }
-
-    #animate-subtitle {
-        margin-top: -10px;
-
-        .letter {
-          font-size: 16px;
-        }
-
-        .letter.space {
-          width: 10px;
+        #animate-subtitle {
+            margin-top: -10px;
+    
+            .letter {
+              font-size: 16px;
+            }
+    
+            .letter.space {
+              width: 10px;
+            }
         }
     }
 
+    // About
     #about {
         text-align: center;
 
@@ -54,6 +52,7 @@
 // Small Devices
 @media only screen and (max-width : 768px) {
 
+    // Navigation
     header {
         position: fixed;
         display: none;
@@ -61,115 +60,137 @@
         animation: none;
         bottom: 0;
         height: 100%;
+
+        #menu {
+            overflow-y: auto;
+            box-shadow: none;
+            border-radius: 0;
+            width: 100%;
+    
+            li {
+                display: block;
+                margin-bottom: 10px;
+                font-size: 18px;
+            }
+        }
     }
 
     #mobile-menu-open, #mobile-menu-close {
         display: block;
     }
 
-    #menu {
-        overflow-y: auto;
-        box-shadow: none;
-        border-radius: 0;
-        width: 100%;
 
-        li {
-            display: block;
-            margin-bottom: 10px;
-            font-size: 18px;
+    // Dashboard
+    #dashboard {
+        #dashboard-content {
+            h1 {
+                font-size: 2em;
+            }
+        }
+
+        #dashboard-down {
+            display: none;
         }
     }
 
-    #dashboard-content {
-        h1 {
-            font-size: 2em;
-        }
-
-        h2 {
-            font-size: 1.3em;
-        }
-
-        a {
-            padding: 10px 20px;
-        }
-    }
-
-    #dashboard-down {
-        display: none;
-    }
-
+    // About
     #about {
         padding-top: 40px;
+        padding-bottom: 40px;
         height: 100%;
+
+        img {
+            width: 50%;
+        }
+
+        .btn-rounded-blue {
+            padding: 10px 22px;
+        }
     }
 
-    #about img {
-        width: 50%;
-    }
-
+    
+    // Projects
     #projects {
         padding-top: 40px;
+
+        .project {
+            height: auto;
+
+            .project-image {
+                display: none;
+            }
+
+            .project-info {
+                position: relative;
+                margin: 0;
+                padding: 30px 15px;
+                top: auto;
+                transform: none;
+            }
+        }
+
+        #view-more-projects {
+            font-size: 16px;
+        }
     }
 
-    .project {
-        height: auto;
-    }
-
-    .project-image {
-        display: none;
-    }
-
-    .project-info {
-        position: relative;
-        margin: 0;
-        padding: 30px 15px;
-        top: auto;
-        transform: none;
-    }
+    // Skills
     #skills {
         padding-top: 40px;
+
+        ul {
+            margin: 0 20px;
+
+            li {
+                font-size: 0.8em;
+            }
+        }
     }
 
-    #skills ul {
-        margin: 0 20px;
-    }
-    #skills li {
-        font-size: 1em;
+    // Contact
+    #contact {
+        .btn-wider {
+            min-width: 200px;
+        }
+        .btn-rounded-white {
+            padding: 12px 40px;
+        }
     }
 
+    // Footer
     footer {
         text-align: center;
-    }
 
-    .social {
-        text-align: center;
+        .social {
+            text-align: center;
+        }
     }
-
 }
 
 // Extra Small Devices
 @media only screen and (max-width : 480px) {
 
-    #dashboard-content {
-        h1 {
-            font-size: 1.5em;
+    // Dashboard
+    #dashboard {
+        #dashboard-content {
+            h1 {
+                font-size: 1.5em;
+            }
         }
-
-        h2 {
-            font-size: 1em;
-        }
-
-        a {
-            font-size: 0.9em;
-            padding: 5px 10px;
-        }
-    }
-
-    #animate-subtitle {
-        .letter {
-            font-size: 12px;
+    
+        #animate-subtitle {
+            .letter {
+                font-size: 18px;
+            }
         }
     }
 
-
+    // Skills
+    #skills {
+        ul {
+            li {
+                margin: 5px;
+            }
+        }
+    }
 }
