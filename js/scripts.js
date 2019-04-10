@@ -92,7 +92,7 @@
                 .setTween(tween)
                 .addTo(controller);
         }
-        for (index = 1; index < 13; index++) {
+        for (index = 1; index < 14; index++) {
             animateImages([index]);
         }
 
